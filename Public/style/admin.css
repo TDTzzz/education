@@ -1,0 +1,11 @@
+.main-box {
+    padding: 20px 25px;
+    width: 640px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -223px;
+    margin-left: -345px;
+    background-color: #E72929;
+    box-shadow: 5px 5px 12px #B9B2B2, -5px -5px 12px #B9B2B2;
+}

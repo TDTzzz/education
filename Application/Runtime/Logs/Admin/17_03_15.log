@@ -1,0 +1,2279 @@
+[ 2017-03-15T15:47:38+08:00 ] 127.0.0.1 /admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000177s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018345s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001197s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001383s ]
+
+[ 2017-03-15T15:47:42+08:00 ] 127.0.0.1 /admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000899s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'tt' AND `password` = '123' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2017-03-15T15:47:43+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2017-03-15T15:57:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000205s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-03-15T15:57:21+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011284s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-03-15T15:57:23+08:00 ] 127.0.0.1 /index.php/Admin/Web7/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2017-03-15T15:57:51+08:00 ] 127.0.0.1 /index.php/Admin/Web3/index/type/%E6%95%99%E6%94%B9%E4%B8%8E%E8%B4%A8%E9%87%8F%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `article3` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article3` WHERE `type` = '教改与质量办公室' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article3` WHERE `type` = '教改与质量办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000735s ]
+
+[ 2017-03-15T15:57:54+08:00 ] 127.0.0.1 /index.php/Admin/Web3/add/type/%E6%95%99%E6%94%B9%E4%B8%8E%E8%B4%A8%E9%87%8F%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `article3` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-03-15T15:57:58+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011042s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-03-15T16:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012928s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001129s ]
+
+[ 2017-03-15T16:00:57+08:00 ] 127.0.0.1 /index.php/Admin/Web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,2   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: type C:\wamp64\www\education\Application\Runtime\Cache\Admin\3f91ef57bc1194b2f31836190575f4f4.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062040s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-03-15T16:00:59+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '教学管理与信息办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '教学管理与信息办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000541s ]
+
+[ 2017-03-15T16:01:04+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000601s ]
+
+[ 2017-03-15T16:01:05+08:00 ] 127.0.0.1 /index.php/Admin/Web7/add/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2017-03-15T16:01:31+08:00 ] 127.0.0.1 /index.php/Admin/Web7/add/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article7` (`title`,`author`,`resource`,`type`,`content`,`time`) VALUES ('毕业设计学生用资料','文华教务处','教务网','实践教学办公室','&lt;p&gt;http://jwweb.hustwenhua.net/upload/file/20160309/85045205109433.zip&lt;/p&gt;','1489564891') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000535s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2017-03-15T16:01:32+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000237s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000753s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000889s ]
+
+[ 2017-03-15T16:01:34+08:00 ] 127.0.0.1 /index.php/Admin/Web7/add/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2017-03-15T16:01:58+08:00 ] 127.0.0.1 /index.php/Admin/Web7/add/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article7` (`title`,`author`,`resource`,`type`,`content`,`time`) VALUES ('实践类选修课申请表','文华教务处','教务网','实践教学办公室','&lt;p&gt;http://jwweb.hustwenhua.net/upload/file/20160309/84113645150946.doc&lt;/p&gt;','1489564918') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004414s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2017-03-15T16:01:59+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2017-03-15T16:02:02+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000677s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '教学管理与信息办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '教学管理与信息办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000983s ]
+
+[ 2017-03-15T16:02:04+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E6%95%99%E5%AD%A6%E6%94%B9%E9%9D%A9%E4%B8%8E%E8%B4%A8%E9%87%8F%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '教学改革与质量办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '教学改革与质量办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
+[ 2017-03-15T16:02:05+08:00 ] 127.0.0.1 /index.php/Admin/Web7/index/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013557s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013654s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2017-03-15T16:15:24+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/column1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2017-03-15T16:15:31+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '教务通知' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2017-03-15T16:20:36+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002747s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000622s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-03-15T16:20:39+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-03-15T16:22:10+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001227s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001388s ]
+
+[ 2017-03-15T16:22:12+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '教务通知' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2017-03-15T16:22:14+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '教务通知' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000709s ]
+
+[ 2017-03-15T16:22:17+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011686s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-03-15T16:22:29+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '质量工程' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2017-03-15T16:22:33+08:00 ] 127.0.0.1 /index.php/Admin/Web2/index/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article2` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-03-15T16:34:44+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-03-15T16:34:45+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/add/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010490s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000892s ]
+
+[ 2017-03-15T16:51:12+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000685s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000456s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014403s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000961s ]
+
+[ 2017-03-15T16:51:14+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011350s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2017-03-15T16:56:39+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000872s ]
+
+[ 2017-03-15T16:56:41+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2017-03-15T16:56:46+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000223s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001202s ]
+
+[ 2017-03-15T16:56:55+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000515s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011957s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000781s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-03-15T16:56:55+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001674s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2017-03-15T16:56:55+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001510s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001261s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000252s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016156s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-03-15T16:56:56+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2017-03-15T17:01:39+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000661s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2017-03-15T17:01:43+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000324s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-03-15T17:01:44+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012437s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-03-15T17:01:44+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000829s ]
+
+[ 2017-03-15T17:01:46+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000409s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011899s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2017-03-15T17:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 2,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012047s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000675s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2017-03-15T17:01:49+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 4,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-03-15T17:11:19+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-03-15T17:11:35+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2/p/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 4,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001729s ]
+
+[ 2017-03-15T17:11:37+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/add/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000248s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011743s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000756s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-03-15T17:11:58+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/add/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001494s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012970s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000763s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2017-03-15T17:12:02+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013312s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000732s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000842s ]
+
+[ 2017-03-15T17:12:03+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentadd/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001362s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-15T17:12:15+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentadd/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article1` (`title`,`author`,`resource`,`type`,`content`,`department`,`time`) VALUES ('11','11','11','专业特色','&lt;p&gt;111&lt;/p&gt;','','1489569135') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000408s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007095s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001428s ]
+
+[ 2017-03-15T17:12:16+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000775s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2017-03-15T17:12:25+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/del/id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0024s ]
+SQL: DELETE FROM `article1` WHERE `id` = 24 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000317s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001458s ]
+
+[ 2017-03-15T17:12:26+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000267s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000752s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2017-03-15T17:13:21+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2017-03-15T17:13:21+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentadd/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011952s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012058s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000394s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-03-15T17:13:27+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentadd/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001605s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article1` (`title`,`author`,`resource`,`type`,`content`,`department`,`time`) VALUES ('1','1','111','专业特色','&lt;p&gt;1&lt;/p&gt;','外语学部','1489569207') [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2017-03-15T17:13:28+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013829s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-03-15T17:15:10+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001045s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-03-15T17:15:11+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000642s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001994s ]
+
+[ 2017-03-15T17:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `article1` SET `title`='1',`author`='1',`resource`='111',`department`='城市建设工程学部',`content`='&lt;p&gt;1&lt;/p&gt;' WHERE `id` = 25 [ RunTime:0.0562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005610s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2017-03-15T17:15:18+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000259s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014143s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000915s ]
+
+[ 2017-03-15T17:15:19+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000537s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002261s ]
+
+[ 2017-03-15T17:21:32+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000231s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000664s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000922s ]
+
+[ 2017-03-15T17:21:32+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000767s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-03-15T17:21:32+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000687s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001113s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001233s ]
+
+[ 2017-03-15T17:21:32+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2017-03-15T17:21:33+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000788s ]
+
+[ 2017-03-15T17:21:34+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+
+[ 2017-03-15T17:23:53+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-03-15T17:23:53+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000250s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000847s ]
+
+[ 2017-03-15T17:23:53+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000773s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-03-15T17:23:54+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+
+[ 2017-03-15T17:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000707s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2017-03-15T17:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000128s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000758s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-03-15T17:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012618s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000714s ]
+
+[ 2017-03-15T17:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+
+[ 2017-03-15T17:27:28+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000271s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022171s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001596s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001173s ]
+
+[ 2017-03-15T17:27:28+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002318s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0039s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000271s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023675s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023888s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2017-03-15T17:27:28+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003662s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000245s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020342s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2017-03-15T17:27:28+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-03-15T17:27:31+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000395s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001433s ]
+
+[ 2017-03-15T17:27:46+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-03-15T17:27:48+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000258s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000973s ]
+
+[ 2017-03-15T17:27:51+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `article1` SET `title`='1',`author`='1',`resource`='111',`department`='机械与电气工程学部',`content`='&lt;p&gt;1&lt;/p&gt;' WHERE `id` = 25 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+
+[ 2017-03-15T17:27:52+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0021s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000246s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2017-03-15T17:27:54+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001287s ]
+
+[ 2017-03-15T17:27:58+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/departmentedit/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 25 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `article1` SET `title`='1',`author`='1',`resource`='111',`department`='基础学部',`content`='&lt;p&gt;1&lt;/p&gt;' WHERE `id` = 25 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000987s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001335s ]
+
+[ 2017-03-15T17:27:59+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000306s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013612s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001017s ]
+
+[ 2017-03-15T17:28:02+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/del/id/25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: DELETE FROM `article1` WHERE `id` = 25 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2017-03-15T17:28:03+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014273s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000970s ]
+
+[ 2017-03-15T19:49:51+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/department/type/%E4%B8%93%E4%B8%9A%E7%89%B9%E8%89%B2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '专业特色' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000667s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2017-03-15T19:50:58+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '教务通知' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012927s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-03-15T19:51:00+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/add/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000235s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011420s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011539s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000463s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000819s ]
+
+[ 2017-03-15T19:51:28+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/add/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: validate C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\wamp64\www\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article1` (`title`,`author`,`resource`,`type`,`content`,`time`) VALUES ('关于李泽锋等8人长期不在校情况的告知','文华教务处','教务网','教务通知','&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-align: center; text-indent: 43px;&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 21px; font-family: 宋体;&quot;&gt;关于李泽锋等&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;8&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size: 21px; font-family: 宋体;&quot;&gt;人长期不在校情况的告知&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 37px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;李泽锋，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;120201021101&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校环境设计专业学生。自&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月因病离校至今没来过学校，期间与家长多次联系，家长多次表示要来学校办理休学手续，但均未来校，后来电话不接，短信也不回；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 37px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;张杰，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;120201051124&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校视觉传达设计专业学生。&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2013&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年开学以来，就长期不上课，据该生反应，每天的生活是上午在寝室睡觉，下午出去找同学玩，对学习一点兴趣都没有。该生于&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2014&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;22&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;日办理了休学手续，应于&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;31&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;日办理复学手续，学部至今也联系不上本人；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 37px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;胡克俭，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;130211011106&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校城乡规划专业学生。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;因心理问题无法正常上课，于&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2014&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;6&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月办理了休学手续，应于&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;31&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;日办理复学手续。但该生至今未与学校联系，而学部也未能联系上本人；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 37px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;杨键，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;120206031127&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校土木工程专业学生。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255);&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;自&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月至今没有来学校过，也没有参加正常的学习活动，经过与该生的多次联系，该生表示不准备继续读书且已经在外地工作，辅导员多次要求该生来学校办理退学手续，均未到校。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;龚宇翔，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;120273021314&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校建筑工程技术专业学生。自&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月至今没有来过学校，没有参加正常的学习活动。该生及其家长均有明确的态度，不再返校读书。该生存在欠费，辅导员多次与其家长沟通，家长均回避，也不返校办理退学手续。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;袁林，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;110208011112&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校土木工程专业学生。该生自&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2016&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月至今没有来学校，也没有参加正常学习活动，经过与该生及其家长多次联系，该生表示不准备读，家长也愿意办理退学手续，但是至今仍没有来校办理。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;尤文岚，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;120201061108&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;，是我校视觉传达设计专业学生。&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2014&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;10&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月因挂科&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;12&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;门延长修业年限到视觉传达设计&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2013&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;级&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;班，又于&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;11&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月因挂科&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;20&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;门留校试读到视觉传达设计&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2014&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;级&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;班。&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2016&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月开学至今，未到校参加正常的学习活动，学部多次联系该生未果，联系其父，其父表示对该生长期不在校情况是知晓的，鉴于该生实际情况，其父&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2016&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;28&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;日到校为其申请退学由于其退学流程当天未办理完整，后学部与其父多次联系希望家长或学生本人来校办理。但其父表示不愿再来办理。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;张子豪，男，学号&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;120471031339&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;。是我校财务管理专业学生，于&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2012&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月就读于经济管理学部财务管理（专科）专业，大三上学期累计挂科达到&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;8&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;门，留级到&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2013&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;级，期间辅导员多次要求该生参加学校重修考试，该生均以工作为由拒绝返校参加重修报名以及重修考试；&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月，辅导员与该生大伯一同给其做思想工作，希望其认真对待学业。但其并没有改观，不仅又找了一份全职工作，而且没有返校上课，正常考试和重修考试均不参加，目前累计挂科&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;14&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;门，学部为其报了延长修业年限学籍异动到&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2014&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;级。&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;2015&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;年&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;9&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;月至今，辅导员多次联系该生及家长均未接通。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;上述八位同学，请你们在告知发出日期后十五个工作日内，速与学校教务处取得联系，告知目前的状况以及今后的打算，学校会根据你们的实际情况进行妥善处理；逾期不与学校联系者，学校将作为自动退学处理，并在学信网上注销学籍。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;教务处联系方式：&lt;/span&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;027-87583638&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;文华学院教务处&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin-bottom: 1em; font-family: Simsun; white-space: normal; background-color: rgb(255, 255, 255); text-indent: 38px;&quot;&gt;&lt;span style=&quot;font-size: 19px;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 19px; font-family: 宋体;&quot;&gt;二〇一六年十一月十四日&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1489578688') [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-03-15T19:51:29+08:00 ] 127.0.0.1 /index.php/Admin/Webhome/index/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '教务通知' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 0,2   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000805s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
+

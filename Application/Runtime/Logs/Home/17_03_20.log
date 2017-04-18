@@ -1,0 +1,2513 @@
+[ 2017-03-20T16:01:31+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.070071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.106561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.106690s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.1823s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0951s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.018307s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.018426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.240312s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.240453s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.066405s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.066532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007448s ]
+
+[ 2017-03-20T16:01:41+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000598s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000706s ]
+
+[ 2017-03-20T16:02:58+08:00 ] 127.0.0.1 /index.php/Home/Index/departmentindex/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.040441s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.040571s ]
+NOTIC: [8] Undefined variable: blog C:\wamp64\www\education\Application\Runtime\Cache\Home\29bf726d5727ba02576561f7968cde76.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108809s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2017-03-20T18:13:14+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016894s ]
+ERR: SQLSTATE[42000] [1049] Unknown database 'education'
+
+[ 2017-03-20T18:36:42+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021147s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0725s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0179s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0236s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0250s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002793s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003708s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.149201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.149462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006257s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006419s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.198706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.199974s ]
+
+[ 2017-03-20T18:39:45+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012255s ]
+
+[ 2017-03-20T18:40:52+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004627s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0648s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0135s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0145s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0405s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000855s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.189851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.190044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013261s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019739s ]
+
+[ 2017-03-20T18:42:34+08:00 ] 192.168.120.173 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002972s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0119s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0148s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073486s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008551s ]
+
+[ 2017-03-20T18:50:05+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007167s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0205s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0385s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0183s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0135s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005725s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005904s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047400s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048905s ]
+
+[ 2017-03-20T18:50:18+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015047s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0144s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009676s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009191s ]
+INFO: [ app_end ] --END-- [ RunTime:0.253268s ]
+
+[ 2017-03-20T18:50:46+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008952s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0206s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0227s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000491s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093103s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002852s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004422s ]
+
+[ 2017-03-20T18:51:18+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008237s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0111s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0139s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0119s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.128862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.128975s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.023230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014465s ]
+
+[ 2017-03-20T18:53:37+08:00 ] 192.168.120.173 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006222s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0179s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0171s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0280s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016693s ]
+
+[ 2017-03-20T18:53:40+08:00 ] 192.168.120.173 /education/index.php/Home/Web2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009250s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT * FROM `article2` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0120s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000790s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068678s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068797s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004265s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004481s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002903s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003182s ]
+
+[ 2017-03-20T18:53:45+08:00 ] 192.168.120.173 /education/index.php/Home/Web2/columnindex/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024312s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007642s ]
+
+[ 2017-03-20T18:53:50+08:00 ] 61.151.218.119 /education/index.php/Home/Web2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011730s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003882s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0109s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article2` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0141s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005352s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009501s ]
+
+[ 2017-03-20T18:53:52+08:00 ] 192.168.120.173 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0143s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0201s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0177s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0185s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000509s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000742s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069114s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022065s ]
+
+[ 2017-03-20T18:53:54+08:00 ] 180.163.1.46 /education/index.php/Home/Web2/columnindex/id/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000208s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008986s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 12 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000412s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002649s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002823s ]
+
+[ 2017-03-20T18:54:01+08:00 ] 61.151.218.119 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012615s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0125s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0143s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0172s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0192s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000821s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000918s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004554s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007627s ]
+
+[ 2017-03-20T18:54:01+08:00 ] 117.185.27.113 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008937s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0161s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0362s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0249s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0244s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003124s ]
+
+[ 2017-03-20T18:54:02+08:00 ] 180.153.81.212 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019638s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0147s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0224s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0240s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.138463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004499s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004684s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.045624s ]
+INFO: [ app_end ] --END-- [ RunTime:0.045882s ]
+
+[ 2017-03-20T18:54:02+08:00 ] 101.226.33.226 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.054818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.022049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.022255s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0112s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0152s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0151s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101212s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002746s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002481s ]
+
+[ 2017-03-20T18:54:57+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007839s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0817s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0190s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0165s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0178s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.126534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015639s ]
+
+[ 2017-03-20T18:55:08+08:00 ] 192.168.120.173 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008982s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0121s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0215s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0197s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0245s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068944s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005559s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005746s ]
+
+[ 2017-03-20T18:55:10+08:00 ] 192.168.120.173 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001884s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0435s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.1026s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0200s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0243s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000579s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016340s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016539s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007131s ]
+
+[ 2017-03-20T18:59:38+08:00 ] 192.168.120.173 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003295s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0161s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0183s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0235s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0223s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002016s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097304s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011513s ]
+
+[ 2017-03-20T19:01:04+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002491s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0318s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0132s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0136s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000639s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.139442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.060010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.158473s ]
+
+[ 2017-03-20T19:01:36+08:00 ] 127.0.0.1 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008702s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0172s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0143s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0203s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017510s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017705s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.040901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041040s ]
+
+[ 2017-03-20T19:02:40+08:00 ] 192.168.120.173 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011919s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0133s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0368s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000353s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000994s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015768s ]
+
+[ 2017-03-20T19:05:17+08:00 ] 183.57.53.197 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009077s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009317s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0092s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0464s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0305s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0127s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.127287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010624s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009988s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010194s ]
+
+[ 2017-03-20T19:06:59+08:00 ] 192.168.120.173 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011945s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012175s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0183s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0305s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000440s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011814s ]
+
+[ 2017-03-20T19:22:27+08:00 ] 192.168.120.173 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.059422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018325s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0933s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0426s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0212s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0167s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0282s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000809s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000849s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.324372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.327537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011331s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019313s ]
+
+[ 2017-03-20T19:22:30+08:00 ] 192.168.120.173 /education/index.php/Home/Index/columnindex?id=32&type=%E5%8D%95%E9%A1%B5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.033927s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.034311s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000536s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009828s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018411s ]
+
+[ 2017-03-20T19:22:41+08:00 ] 101.226.61.207 /education/index.php/Home/Index/columnindex?id=32&type=???��?��
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011901s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0763s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000207s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012964s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011413s ]
+
+[ 2017-03-20T19:24:43+08:00 ] 192.168.120.173 /education/index.php/Home/Index/columnindex?id=32&type=%E5%8D%95%E9%A1%B5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008515s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073221s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003562s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.017591s ]
+
+[ 2017-03-20T19:48:27+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=32&type=%E5%8D%95%E9%A1%B5
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000519s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004426s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009783s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 32 LIMIT 1   [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.144586s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144687s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008642s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002019s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002358s ]
+
+[ 2017-03-20T19:48:51+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003915s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0160s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `article2` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000457s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095761s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010657s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013766s ]
+
+[ 2017-03-20T19:48:55+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/column/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.085188s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.085451s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `article2` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001523s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.588873s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.589052s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.021070s ]
+
+[ 2017-03-20T19:48:58+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/columnindex/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000090s ]
+INFO: [ app_init ] --END-- [ RunTime:0.025703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.026943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.027561s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0071s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000718s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001678s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.252844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.253074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038694s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039485s ]
+
+[ 2017-03-20T19:49:03+08:00 ] 180.153.81.212 /education/index.php/Home/Web2/column/type/???������????-|????????��
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012035s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012690s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0253s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` WHERE `type` = '' LIMIT 1   [ RunTime:0.0051s ]
+SQL: SELECT * FROM `article2` WHERE `type` = '' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002465s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079301s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005065s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007773s ]
+
+[ 2017-03-20T19:49:07+08:00 ] 180.153.206.17 /education/index.php/Home/Web2/columnindex/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011847s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0100s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000380s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111966s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112314s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006532s ]
+
+[ 2017-03-20T19:52:13+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/column/type/%E5%AE%9E%E8%B7%B5%E6%95%99%E5%AD%A6%E5%8A%9E%E5%85%AC%E5%AE%A4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.078382s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0193s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` WHERE `type` = '实践教学办公室' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article2` WHERE `type` = '实践教学办公室' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.134442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014688s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007774s ]
+
+[ 2017-03-20T19:52:16+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007780s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0448s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0269s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0152s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0145s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000593s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002754s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117429s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010296s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014199s ]
+
+[ 2017-03-20T19:52:23+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.055596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.055795s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article2` LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `article2` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0102s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000185s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015909s ]
+
+[ 2017-03-20T19:52:26+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/columnindex/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006975s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010176s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012889s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.016396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016957s ]
+
+[ 2017-03-20T19:52:35+08:00 ] 101.226.33.239 /education/index.php/Home/Web2/columnindex/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009887s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0698s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.268660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.269904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012521s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014494s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.044278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.044564s ]
+
+[ 2017-03-20T19:58:46+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/columnindex/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004760s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0098s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001804s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092781s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093056s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006088s ]
+
+[ 2017-03-20T20:16:01+08:00 ] 219.139.247.204 /education/index.php/Home/Web2/columnindex/id/4
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012225s ]
+SQL: SHOW COLUMNS FROM `article2` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `article2` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000189s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002022s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\3838093a84acab5292d021371ad5047a.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013575s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013922s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019215s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019368s ]
+
+[ 2017-03-20T20:16:03+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019616s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0028s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0134s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0256s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003341s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007404s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007575s ]
+
+[ 2017-03-20T20:16:07+08:00 ] 219.139.247.204 /education/index.php/Home/Index/departmentindex/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005470s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011244s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0049s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\29bf726d5727ba02576561f7968cde76.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005894s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007724s ]
+
+[ 2017-03-20T20:16:15+08:00 ] 219.139.247.204 /education/index.php/Home/Index/department/department/%E5%A4%96%E8%AF%AD%E5%AD%A6%E9%83%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007843s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011381s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `article1` WHERE `department` = '外语学部'  [ RunTime:0.0057s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000511s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013249s ]
+
+[ 2017-03-20T20:16:17+08:00 ] 180.153.214.180 /education/index.php/Home/Index/departmentindex/id/15
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008149s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0099s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\29bf726d5727ba02576561f7968cde76.php 第 104 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120096s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002052s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2017-03-20T20:16:18+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013895s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001440s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.056052s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.056128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005566s ]
+
+[ 2017-03-20T20:16:25+08:00 ] 101.226.68.200 /education/index.php/Home/Index/department/department/?��?����-?-|��?��.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000574s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012067s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0098s ]
+SQL: SELECT * FROM `article1` WHERE `department` = ''  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000476s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002766s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006285s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006480s ]
+
+[ 2017-03-20T20:16:28+08:00 ] 219.139.247.204 /education/index.php/Home/Index/department/department/%E4%BF%A1%E6%81%AF%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005154s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `article1` WHERE `department` = '信息科学与技术'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000323s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.154583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.154828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041558s ]
+
+[ 2017-03-20T20:16:28+08:00 ] 180.153.214.176 /education/index.php/Home/Index/columnindex/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0514s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000467s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.081534s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004151s ]
+
+[ 2017-03-20T20:16:31+08:00 ] 219.139.247.204 /education/index.php/Home/Index/department/department/%E6%9C%BA%E6%A2%B0%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%83%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010142s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `article1` WHERE `department` = '机械与电气工程学部'  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000349s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000573s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.078216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080795s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.009505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013816s ]
+
+[ 2017-03-20T20:16:38+08:00 ] 101.226.33.226 /education/index.php/Home/Index/department/department/?????��?��??-|????????��.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016705s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014026s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `article1` WHERE `department` = ''  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000516s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.107232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004404s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006954s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008167s ]
+
+[ 2017-03-20T20:16:40+08:00 ] 101.226.89.115 /education/index.php/Home/Index/department/department/??o?���?????��?��??����?��??-|��?��.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000182s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011635s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013592s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `article1` WHERE `department` = ''  [ RunTime:0.0070s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000517s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.238763s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239856s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009427s ]
+
+[ 2017-03-20T20:17:54+08:00 ] 219.139.247.204 /education/index.php/Home/Index/department/department/%E6%9C%BA%E6%A2%B0%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%83%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000510s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009750s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `article1` WHERE `department` = '机械与电气工程学部'  [ RunTime:0.0051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110563s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003771s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005036s ]
+
+[ 2017-03-20T20:17:56+08:00 ] 219.139.247.204 /education/index.php/Home/Index/department/department/%E6%9C%BA%E6%A2%B0%E4%B8%8E%E7%94%B5%E6%B0%94%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%83%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.038011s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.038658s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `article1` WHERE `department` = '机械与电气工程学部'  [ RunTime:0.0042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007831s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008954s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.302262s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.306024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.051916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.052667s ]
+
+[ 2017-03-20T20:17:59+08:00 ] 219.139.247.204 /education/index.php/Home/Index/department/department/%E5%A4%96%E8%AF%AD%E5%AD%A6%E9%83%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013649s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0168s ]
+SQL: SELECT * FROM `article1` WHERE `department` = '外语学部'  [ RunTime:0.0079s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000330s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.012145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004572s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013237s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013441s ]
+
+[ 2017-03-20T20:29:19+08:00 ] 219.139.247.204 /education/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019476s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0080s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0278s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0256s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0233s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000478s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000838s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.139809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.140046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011486s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.084492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.084749s ]
+
+[ 2017-03-20T20:29:25+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=20&type=%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000147s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006750s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0632s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007073s ]
+
+[ 2017-03-20T20:29:38+08:00 ] 219.139.247.204 /education/index.php/Home/Web8/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005529s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000811s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:2.927819s ]
+INFO: [ view_parse ] --END-- [ RunTime:2.928083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.028690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.028899s ]
+
+[ 2017-03-20T20:29:38+08:00 ] 180.163.1.46 /education/index.php/Home/Index/columnindex?id=20&type=���䡧��???����?��?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005953s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:4.1980s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0053s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000187s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000441s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061839s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2017-03-20T20:29:40+08:00 ] 219.139.247.204 /education/index.php/Home/Web7/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011287s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0152s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` LIMIT 1   [ RunTime:0.0016s ]
+SQL: SELECT * FROM `article7` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000009s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000027s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057591s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010844s ]
+
+[ 2017-03-20T20:29:43+08:00 ] 219.139.247.204 /education/index.php/Home/Web7/column/type/%E6%95%99%E5%AD%A6%E7%AE%A1%E7%90%86%E4%B8%8E%E4%BF%A1%E6%81%AF%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006675s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0073s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '教学管理与信息办公室' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '教学管理与信息办公室' ORDER BY id desc LIMIT 0,7   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055439s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055663s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001943s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.016191s ]
+
+[ 2017-03-20T20:29:45+08:00 ] 101.226.99.197 /education/index.php/Home/Web8/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.033992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.004452s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.007431s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.122238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123278s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005658s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023366s ]
+
+[ 2017-03-20T20:29:45+08:00 ] 219.139.247.204 /education/index.php/Home/Web7/column/type/%E6%95%99%E5%AD%A6%E6%94%B9%E9%9D%A9%E4%B8%8E%E8%B4%A8%E9%87%8F%E5%8A%9E%E5%85%AC%E5%AE%A4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004693s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '教学改革与质量办公室' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '教学改革与质量办公室' ORDER BY id desc LIMIT 0,7   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000192s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001829s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001244s ]
+
+[ 2017-03-20T20:29:47+08:00 ] 219.139.247.204 /education/index.php/Home/Web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000003s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009329s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0343s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003169s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003333s ]
+
+[ 2017-03-20T20:29:53+08:00 ] 101.226.66.177 /education/index.php/Home/Web7/column/type/????-|??????????????��????????��.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000575s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003491s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0083s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '' LIMIT 1   [ RunTime:0.0034s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '' ORDER BY id desc LIMIT 0,7   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000745s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000978s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.126813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007918s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010116s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010899s ]
+
+[ 2017-03-20T20:29:55+08:00 ] 180.153.205.254 /education/index.php/Home/Web7/column/type/????-|??1��?????���䡧��??????????��.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.020505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013549s ]
+SQL: SHOW COLUMNS FROM `article7` [ RunTime:0.0128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article7` WHERE `type` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article7` WHERE `type` = '' ORDER BY id desc LIMIT 0,7   [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004973s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005078s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005784s ]
+
+[ 2017-03-20T20:29:56+08:00 ] 101.226.66.177 /education/index.php/Home/Web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023589s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0198s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096055s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096997s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008535s ]
+
+[ 2017-03-20T20:31:02+08:00 ] 219.139.247.204 /education/index.php/Home/Web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013504s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0081s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.178686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.179374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004277s ]
+
+[ 2017-03-20T20:31:03+08:00 ] 219.139.247.204 /education/index.php/Home/Web5/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005270s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009595s ]
+SQL: SHOW COLUMNS FROM `article5` [ RunTime:0.0175s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article5` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article5` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0360s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000757s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.097272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099218s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019071s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007996s ]
+
+[ 2017-03-20T20:31:18+08:00 ] 180.153.214.197 /education/index.php/Home/Web5/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012680s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.036080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.036349s ]
+SQL: SHOW COLUMNS FROM `article5` [ RunTime:4.0846s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article5` LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article5` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0379s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000594s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000724s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.202039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.203070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.128188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.128408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.034588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.036550s ]
+
+[ 2017-03-20T20:31:27+08:00 ] 219.139.247.204 /education/index.php/Home/Web5/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000794s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009802s ]
+SQL: SHOW COLUMNS FROM `article5` [ RunTime:0.0087s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article5` LIMIT 1   [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article5` ORDER BY id desc LIMIT 0,7   [ RunTime:0.0339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000488s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011728s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.012218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.012582s ]
+
+[ 2017-03-20T20:31:29+08:00 ] 219.139.247.204 /education/index.php/Home/Web4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004505s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006847s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000460s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009924s ]
+
+[ 2017-03-20T20:31:31+08:00 ] 219.139.247.204 /education/index.php/Home/Web4/column/type/%E6%95%99%E5%AD%A6%E8%BF%90%E8%A1%8C%E4%B8%8E%E7%AE%A1%E7%90%86.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004837s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004408s ]
+SQL: SHOW COLUMNS FROM `article4` [ RunTime:0.0189s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article4` WHERE `type` = '教学运行与管理' LIMIT 1   [ RunTime:0.0313s ]
+SQL: SELECT * FROM `article4` WHERE `type` = '教学运行与管理' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0115s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103457s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015368s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015739s ]
+
+[ 2017-03-20T20:31:38+08:00 ] 180.153.206.20 /education/index.php/Home/Web4/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.029628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.029870s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000532s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.378692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.378945s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007850s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013517s ]
+
+[ 2017-03-20T20:31:38+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007814s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:2.9055s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0179s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0166s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000404s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000640s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.169339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.169479s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005011s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007308s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007480s ]
+
+[ 2017-03-20T20:31:39+08:00 ] 219.139.247.204 /education/index.php/Home/Web4/columnindex/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003696s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003939s ]
+SQL: SHOW COLUMNS FROM `article4` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `article4` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000405s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\cf9d09f641a493f6b2355be1bc5e63ae.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001765s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002605s ]
+
+[ 2017-03-20T20:31:41+08:00 ] 180.153.163.190 /education/index.php/Home/Web4/column/type/????-|��??��???????????.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000116s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008032s ]
+SQL: SHOW COLUMNS FROM `article4` [ RunTime:0.0108s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article4` WHERE `type` = '' LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT * FROM `article4` WHERE `type` = '' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000243s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000449s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008354s ]
+
+[ 2017-03-20T20:31:45+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.021271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005434s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0176s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0152s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0204s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000882s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001310s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.170281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.170386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.014045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020162s ]
+
+[ 2017-03-20T20:31:47+08:00 ] 180.163.2.116 /education/index.php/Home/Web4/columnindex/id/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005257s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014196s ]
+SQL: SHOW COLUMNS FROM `article4` [ RunTime:0.0162s ]
+SQL: SELECT * FROM `article4` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0086s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001684s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\cf9d09f641a493f6b2355be1bc5e63ae.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.117061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.117235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006916s ]
+
+[ 2017-03-20T21:26:26+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000107s ]
+INFO: [ app_init ] --END-- [ RunTime:0.019842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015963s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0269s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0525s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0287s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0188s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0163s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000686s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.141512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.141761s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006691s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015408s ]
+
+[ 2017-03-20T21:32:44+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006293s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0237s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0224s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000300s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.125277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125567s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011558s ]
+
+[ 2017-03-20T21:46:48+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007744s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002304s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0097s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0182s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0205s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0307s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0160s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000519s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005389s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006300s ]
+
+[ 2017-03-20T21:47:35+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001164s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0183s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0118s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0142s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000526s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104519s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020449s ]
+
+[ 2017-03-20T21:48:59+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001231s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008525s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023476s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0315s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0144s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0180s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000553s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076688s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005972s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011888s ]
+
+[ 2017-03-20T21:50:05+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015401s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0195s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0131s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0165s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0200s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001995s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.144014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011723s ]
+
+[ 2017-03-20T21:50:08+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=20&type=%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.006912s ]
+INFO: [ app_init ] --END-- [ RunTime:0.099767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.074238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.075860s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 20 LIMIT 1   [ RunTime:0.0032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001468s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002076s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.219550s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.219867s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015279s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015483s ]
+
+[ 2017-03-20T21:50:13+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=19&type=%E8%B4%A8%E9%87%8F%E5%B7%A5%E7%A8%8B
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011442s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000011s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001817s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069325s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013601s ]
+
+[ 2017-03-20T21:50:23+08:00 ] 180.153.206.22 /education/index.php/Home/Index/columnindex?id=19&type=���䡧��???����?��?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000326s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009047s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 19 LIMIT 1   [ RunTime:0.0046s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100173s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006616s ]
+
+[ 2017-03-20T21:51:04+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011158s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0882s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0172s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0163s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0189s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000604s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007423s ]
+
+[ 2017-03-20T21:51:05+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=21&type=%E6%95%99%E5%8A%A1%E8%A6%81%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000071s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014951s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000409s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071762s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008053s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008957s ]
+
+[ 2017-03-20T21:51:18+08:00 ] 101.226.33.219 /education/index.php/Home/Index/columnindex?id=21&type=??????��|?��??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.045431s ]
+INFO: [ app_init ] --END-- [ RunTime:0.106453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.040268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.040805s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000435s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016432s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016623s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008243s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008459s ]
+
+[ 2017-03-20T21:54:08+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=21&type=%E6%95%99%E5%8A%A1%E8%A6%81%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.016210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016466s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 21 LIMIT 1   [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000012s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000427s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112229s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003741s ]
+
+[ 2017-03-20T21:55:01+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000109s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009196s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0227s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0137s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0149s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001565s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001652s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.103612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103793s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004490s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020506s ]
+
+[ 2017-03-20T21:59:31+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000121s ]
+INFO: [ app_init ] --END-- [ RunTime:0.032610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004264s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0307s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0247s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0153s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001605s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.118877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007097s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007315s ]
+
+[ 2017-03-20T21:59:32+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002705s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0279s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0243s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0259s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0294s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.111087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008844s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008905s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007164s ]
+
+[ 2017-03-20T21:59:34+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=&type=%E6%95%99%E5%8A%A1%E8%A6%81%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019541s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000810s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067293s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067641s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004979s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005028s ]
+
+[ 2017-03-20T21:59:44+08:00 ] 112.65.193.15 /education/index.php/Home/Index/columnindex?id=&type=??????��|?��??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009771s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0089s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000471s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.079173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.079750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013315s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006555s ]
+
+[ 2017-03-20T22:01:14+08:00 ] 219.139.247.204 /education/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007827s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008721s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 7   [ RunTime:0.0226s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '专业特色' ORDER BY id desc LIMIT 10   [ RunTime:0.0128s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '质量工程' ORDER BY id desc LIMIT 5   [ RunTime:0.0141s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务要闻' ORDER BY id desc LIMIT 5   [ RunTime:0.0300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000309s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022880s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023134s ]
+
+[ 2017-03-20T22:01:15+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=&type=%E6%95%99%E5%8A%A1%E8%A6%81%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010607s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000363s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.017628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.017832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003194s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003695s ]
+
+[ 2017-03-20T22:01:20+08:00 ] 219.139.247.204 /education/index.php/Home/Index/columnindex?id=22&type=%E6%95%99%E5%8A%A1%E8%A6%81%E9%97%BB
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007432s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000364s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008472s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010767s ]
+
+[ 2017-03-20T22:01:30+08:00 ] 180.153.214.182 /education/index.php/Home/Index/columnindex?id=22&type=??????��|?��??
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003468s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0113s ]
+SQL: SELECT * FROM `article1` WHERE `id` = 22 LIMIT 1   [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001603s ]
+NOTIC: [8] Undefined variable: blog E:\htdocs\education\Application\Runtime\Cache\Home\286aea6cd1a1e48e612d779c123fdad7.php 第 101 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015689s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007152s ]
+

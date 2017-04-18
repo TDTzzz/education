@@ -1,0 +1,690 @@
+[ 2017-04-14T09:42:43+08:00 ] 10.10.16.220 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000004s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003017s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0104s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000366s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2017-04-14T09:42:52+08:00 ] 180.153.201.66 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001948s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0176s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2017-04-14T09:42:59+08:00 ] 183.57.53.222 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0362s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000429s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017234s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002088s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002281s ]
+
+[ 2017-04-14T09:43:09+08:00 ] 10.10.16.220 /index.php/admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `admin` WHERE `name` = 'admin' AND `password` = 'itwx2014!!!' LIMIT 1   [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001488s ]
+
+[ 2017-04-14T09:43:10+08:00 ] 10.10.16.220 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000322s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000650s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2017-04-14T09:43:20+08:00 ] 180.153.206.21 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000295s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000483s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036726s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2017-04-14T09:43:25+08:00 ] 101.226.33.201 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000337s ]
+
+[ 2017-04-14T09:43:25+08:00 ] 140.207.185.109 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002329s ]
+
+[ 2017-04-14T09:43:25+08:00 ] 61.151.228.22 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000584s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000822s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029366s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002168s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002400s ]
+
+[ 2017-04-14T09:43:30+08:00 ] 101.226.125.111 /index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000143s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000273s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001179s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001337s ]
+
+[ 2017-04-14T09:44:15+08:00 ] 10.10.16.220 /index.php/Admin/Web5/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000285s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `article5` [ RunTime:0.0085s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article5` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article5` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Undefined variable: type E:\htdocs\education\Application\Runtime\Cache\Admin\5421bd66752480b9db9b69341a6c3268.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058626s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2017-04-14T09:44:25+08:00 ] 117.185.27.114 /index.php/Admin/Web5/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000382s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000669s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000928s ]
+
+[ 2017-04-14T09:44:29+08:00 ] 101.226.51.227 /index.php/admin/web5/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000914s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001051s ]
+
+[ 2017-04-14T09:46:47+08:00 ] 10.10.16.220 /index.php/Admin/Web5/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004069s ]
+SQL: SHOW COLUMNS FROM `article5` [ RunTime:0.0337s ]
+SQL: SELECT * FROM `article5` WHERE `id` = 9 LIMIT 1   [ RunTime:0.0047s ]
+NOTIC: [8] Undefined index: type E:\htdocs\education\Application\Admin\Controller\Web5Controller.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000914s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.090451s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001736s ]
+
+[ 2017-04-14T09:46:55+08:00 ] 10.10.16.220 /index.php/Admin/Webhome/index/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001509s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0205s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article1` WHERE `type` = '教务通知' LIMIT 1   [ RunTime:0.0023s ]
+SQL: SELECT * FROM `article1` WHERE `type` = '教务通知' ORDER BY id desc LIMIT 0,5   [ RunTime:0.0041s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000490s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000699s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053201s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002290s ]
+
+[ 2017-04-14T09:46:57+08:00 ] 61.151.226.202 /index.php/Admin/Web5/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001404s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000308s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016726s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+
+[ 2017-04-14T09:47:03+08:00 ] 117.185.27.115 /index.php/admin/web5/edit/id/9
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001543s ]
+
+[ 2017-04-14T09:47:05+08:00 ] 112.65.193.14 /index.php/Admin/Webhome/index/type/教务通知.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000330s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022487s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-14T09:47:07+08:00 ] 180.153.206.21 /index.php/admin/webhome/index/type/%e6%95%99%e5%8a%a1%e9%80%9a%e7%9f%a5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000345s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001826s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002051s ]
+
+[ 2017-04-14T09:47:32+08:00 ] 10.10.16.220 /index.php/Admin/Webhome/add/type/%E6%95%99%E5%8A%A1%E9%80%9A%E7%9F%A5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `article1` [ RunTime:0.0230s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000457s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000634s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053170s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003210s ]
+
+[ 2017-04-14T09:47:52+08:00 ] 10.10.16.220 /index.php/Admin/Web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003829s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0481s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0090s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000524s ]
+NOTIC: [8] Undefined variable: type E:\htdocs\education\Application\Runtime\Cache\Admin\3f91ef57bc1194b2f31836190575f4f4.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001830s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002151s ]
+
+[ 2017-04-14T09:47:55+08:00 ] 10.10.16.220 /index.php/Admin/Web6/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001408s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0931s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000346s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000576s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041346s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001825s ]
+
+[ 2017-04-14T09:48:02+08:00 ] 101.226.65.105 /index.php/Admin/Web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004955s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000679s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026626s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013065s ]
+
+[ 2017-04-14T09:48:05+08:00 ] 180.153.205.253 /index.php/Admin/Web6/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001593s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000313s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000994s ]
+
+[ 2017-04-14T09:48:07+08:00 ] 61.151.218.118 /index.php/admin/web6/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000369s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017266s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001243s ]
+
+[ 2017-04-14T09:48:12+08:00 ] 61.151.218.119 /index.php/admin/web6/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004933s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000160s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018537s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000667s ]
+
+[ 2017-04-14T09:48:16+08:00 ] 10.10.16.220 /index.php/Admin/Web6/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001487s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0093s ]
+NOTIC: [8] Undefined index: validate E:\htdocs\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\htdocs\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `article6` (`title`,`author`,`resource`,`content`,`time`) VALUES ('文华学院2017普通专升本报考指南','','','&lt;p style=&quot;;margin-bottom:0;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size:20px;font-family: 微软雅黑&quot;&gt;文华学院2017普通专升本报考指南&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;一、报名&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;1.&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:微软雅黑&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;网上在线报名&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0;text-indent:28px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;进入专升本招生报名系统（网址：&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;http://zsb.hustwenhua.net/&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）报名，在线填写个人资料，并打印《&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2017&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;年文华学院普通专升本报名申请表》（一式三份），到所在学校教务部门盖章。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0;text-indent:19px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;注意事项：（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）考生注册报名前应准确知道本人高考报名号（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;14&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;位数字，可在所在学校招办或教务部门查询）。（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）网上填报信息将作为录取上报基本数据（姓名、身份证号、高考考生号、专科院校名称及专业等），考生必须保证所提供的信息准确、真实，虚假、错误信息引起的不良后果概由学生本人负责。若报名过程中有舞弊行为，将取消考试资格。（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）根据省教育厅的规定，每名学生只能填报一所本科培养院校的一个专业。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2.&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:微软雅黑&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;现场确认报名&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）报名时需本人现场办理报名手续，不得委托他人代办。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;现场确认所需材料：①申请表（一式两份）；②本人已修课程成绩单（经所在学校教务部门盖章确认）；③考生二代身份证原件和双面复印件；④非本校考生还需提供本人学籍认证报告（教育部学信网下载打印）。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）现场确认时间&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月中下旬&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;8 : 30&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;—&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;12 : 00 &lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;　14 : 00&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;—&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;16 : 30&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（具体时间另行通知，请考生关注文华学院官网）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）现场确认地点&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;文华学院行政楼A101&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）现场确认流程&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;①资格审查；②合格者交报名费。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;根据省教育厅有关文件精神，资格审查将贯穿招生、考试、录取、报到等工作全过程，在整个专升本各工作环节，一旦发现考生有弄虚作假、违规违纪行为，一律取消考生报名、考试、录取、报到资格。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）已在网上报名但未在规定时间内到现场确认报名的学生，视为自动放弃报名。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;6&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）按照省教育厅文件精神，专升本报名结束后，如有必要，学校可根据报名情况，适当调整相关专业招生计划数。经省教育厅备案后，在文华学院官网上进行公示，公示期&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;天。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family: 仿宋_GB2312&quot;&gt;二、考试&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月下旬，考生登录文华学院教务处网页打印本人《准考证》（具体时间另行通知，请考生关注文华学院官网）。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;考试安排详见《准考证》。考生必须持准考证和二代身份证原件参加考试。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family: 仿宋_GB2312&quot;&gt;三、录取&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;考试结束后，学校于&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月上旬通过文华学院教务处网页发布考试成绩，考生登录本人帐号查询。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月下旬，学校根据各专业录取计划数，按各专业报考考生的考试总成绩择优录取，并通过文华学院教务网公示拟录取的专升本学生名单及成绩，公示时间为&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;天。无异议后，学校将确定的专升本学生名单报省教育厅复核备案。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0;text-indent:28px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;预录取学生名单经省教育厅审核同意后，发放录取通知书，具体时间网上另行通知。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;拟招生专业及计划&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;577&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;td width=&quot;172&quot; style=&quot;border-width: 1px; border-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;专业名称&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;专业代码&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;专业计划数（人）&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;学制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;允许报考的专业&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;85&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;学费&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;财务管理&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;120204&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;60&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;管理类、经济类&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;85&quot; rowspan=&quot;5&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;按2017年省物价管理部门批准的本科专业学费标准收取。&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;工程管理&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;120103&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;60&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;机械设计制造及其自动化&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;080202&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;30&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;计算机科学与技术&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;080901&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;60&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;英语&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;050201&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;30&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;联系电话：027-87583638&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;举报电话：027-87003682&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;通信地址：&lt;span style=&quot;letter-spacing: -0&quot;&gt;武汉市武汉市东湖高新技术开发区文华园路8号文华学院行政楼教务处&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;邮政编码：430074&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;网址：http://www.hustwenhua.net/&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;乘车路线：1.武昌火车站乘738路到创业街文华路下车即到；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;汉口火车站可乘坐轨道2号线到光谷广场下车后转738到创业街文华路下车即到；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;武汉火车站可乘坐轨道4号线到中南路转2号线到光谷广场下车后转738到创业街文华路下车即到。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312;background:#F8F8F8&quot;&gt;专升本报名入口：&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt; http://zsb.hustwenhua.net/&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;','1492134496') [ RunTime:0.0559s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001630s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002255s ]
+
+[ 2017-04-14T09:48:18+08:00 ] 10.10.16.220 /index.php/Admin/Web6/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0159s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000348s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] Undefined variable: type E:\htdocs\education\Application\Runtime\Cache\Admin\3f91ef57bc1194b2f31836190575f4f4.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003421s ]
+
+[ 2017-04-14T09:48:27+08:00 ] 180.153.205.254 /index.php/Admin/Web6/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027171s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000864s ]
+
+[ 2017-04-14T09:48:42+08:00 ] 10.10.16.220 /index.php/Admin/Web6/edit/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `article6` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: type E:\htdocs\education\Application\Admin\Controller\Web6Controller.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000564s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001035s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001655s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2017-04-14T09:48:51+08:00 ] 101.226.66.187 /index.php/Admin/Web6/edit/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001170s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-04-14T09:49:20+08:00 ] 10.10.16.220 /index.php/Admin/Web6/edit/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0285s ]
+SQL: SELECT * FROM `article6` WHERE `id` = 13 LIMIT 1   [ RunTime:0.0038s ]
+NOTIC: [8] Undefined index: type E:\htdocs\education\Application\Admin\Controller\Web6Controller.class.php 第 46 行.
+NOTIC: [8] Undefined index: validate E:\htdocs\education\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\htdocs\education\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: UPDATE `article6` SET `title`='文华学院2017普通专升本报考指南',`author`='文华教务处',`resource`='教务网',`content`='&lt;p style=&quot;;margin-bottom:0;text-align:center;line-height:40px&quot;&gt;&lt;span style=&quot;font-size:20px;font-family: 微软雅黑&quot;&gt;文华学院2017普通专升本报考指南&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;一、报名&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;1.&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:微软雅黑&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;网上在线报名&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0;text-indent:28px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;进入专升本招生报名系统（网址：&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;http://zsb.hustwenhua.net/&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）报名，在线填写个人资料，并打印《&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2017&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;年文华学院普通专升本报名申请表》（一式三份），到所在学校教务部门盖章。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0;text-indent:19px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;注意事项：（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）考生注册报名前应准确知道本人高考报名号（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;14&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;位数字，可在所在学校招办或教务部门查询）。（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）网上填报信息将作为录取上报基本数据（姓名、身份证号、高考考生号、专科院校名称及专业等），考生必须保证所提供的信息准确、真实，虚假、错误信息引起的不良后果概由学生本人负责。若报名过程中有舞弊行为，将取消考试资格。（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）根据省教育厅的规定，每名学生只能填报一所本科培养院校的一个专业。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2.&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:微软雅黑&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/strong&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;现场确认报名&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;1&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）报名时需本人现场办理报名手续，不得委托他人代办。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;现场确认所需材料：①申请表（一式两份）；②本人已修课程成绩单（经所在学校教务部门盖章确认）；③考生二代身份证原件和双面复印件；④非本校考生还需提供本人学籍认证报告（教育部学信网下载打印）。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）现场确认时间&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月中下旬&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;8 : 30&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;—&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;12 : 00 &lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;　14 : 00&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;—&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;16 : 30&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（具体时间另行通知，请考生关注文华学院官网）&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;3&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）现场确认地点&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;文华学院行政楼A101&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;4&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）现场确认流程&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;①资格审查；②合格者交报名费。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;根据省教育厅有关文件精神，资格审查将贯穿招生、考试、录取、报到等工作全过程，在整个专升本各工作环节，一旦发现考生有弄虚作假、违规违纪行为，一律取消考生报名、考试、录取、报到资格。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）已在网上报名但未在规定时间内到现场确认报名的学生，视为自动放弃报名。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;（&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;6&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;）按照省教育厅文件精神，专升本报名结束后，如有必要，学校可根据报名情况，适当调整相关专业招生计划数。经省教育厅备案后，在文华学院官网上进行公示，公示期&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;天。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family: 仿宋_GB2312&quot;&gt;二、考试&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;5&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月下旬，考生登录文华学院教务处网页打印本人《准考证》（具体时间另行通知，请考生关注文华学院官网）。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;考试安排详见《准考证》。考生必须持准考证和二代身份证原件参加考试。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family: 仿宋_GB2312&quot;&gt;三、录取&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;考试结束后，学校于&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月上旬通过文华学院教务处网页发布考试成绩，考生登录本人帐号查询。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;月下旬，学校根据各专业录取计划数，按各专业报考考生的考试总成绩择优录取，并通过文华学院教务网公示拟录取的专升本学生名单及成绩，公示时间为&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;7&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;天。无异议后，学校将确定的专升本学生名单报省教育厅复核备案。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0;text-indent:28px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;预录取学生名单经省教育厅审核同意后，发放录取通知书，具体时间网上另行通知。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;strong&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;拟招生专业及计划&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;&lt;table cellspacing=&quot;0&quot; cellpadding=&quot;0&quot; width=&quot;577&quot;&gt;&lt;tbody&gt;&lt;tr class=&quot;firstRow&quot;&gt;&lt;td width=&quot;172&quot; style=&quot;border-width: 1px; border-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;专业名称&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;专业代码&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;专业计划数（人）&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;学制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;允许报考的专业&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;85&quot; style=&quot;border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1px; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-left: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;学费&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;财务管理&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;120204&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;60&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;管理类、经济类&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;85&quot; rowspan=&quot;5&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;按2017年省物价管理部门批准的本科专业学费标准收取。&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;工程管理&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;120103&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;60&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;机械设计制造及其自动化&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;080202&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;30&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;计算机科学与技术&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;080901&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;60&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=&quot;172&quot; valign=&quot;bottom&quot; style=&quot;border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-top: none; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%;font-family:宋体&quot;&gt;英语&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;84&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:13px;line-height:150%&quot;&gt;050201&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;96&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-family:仿宋_GB2312&quot;&gt;30&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;58&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;2&lt;/span&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;年&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td width=&quot;82&quot; style=&quot;border-top: none; border-left: none; border-bottom-width: 1px; border-bottom-color: windowtext; border-right-width: 1px; border-right-color: windowtext; padding: 0px 7px;&quot;&gt;&lt;p style=&quot;text-align:center;line-height:150%&quot;&gt;&lt;span style=&quot;font-size:16px;line-height:150%;font-family:仿宋_GB2312&quot;&gt;无限制&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;联系电话：027-87583638&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;举报电话：027-87003682&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;通信地址：&lt;span style=&quot;letter-spacing: -0&quot;&gt;武汉市武汉市东湖高新技术开发区文华园路8号文华学院行政楼教务处&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;邮政编码：430074&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;网址：http://www.hustwenhua.net/&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;乘车路线：1.武昌火车站乘738路到创业街文华路下车即到；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;2.&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;汉口火车站可乘坐轨道2号线到光谷广场下车后转738到创业街文华路下车即到；&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-indent: 37px;line-height: 27px&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;3.&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;武汉火车站可乘坐轨道4号线到中南路转2号线到光谷广场下车后转738到创业街文华路下车即到。&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;;margin-bottom:0&quot;&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312;background:#F8F8F8&quot;&gt;专升本报名入口：&lt;/span&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt; &lt;a href=&quot;http://zsb.hustwenhua.net/&quot; target=&quot;_self&quot; title=&quot;http://zsb.hustwenhua.net/&quot;&gt;http://zsb.hustwenhua.net/&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size:19px;font-family:仿宋_GB2312&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;' WHERE `id` = 13 [ RunTime:0.0216s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000377s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034441s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002719s ]
+
+[ 2017-04-14T09:49:21+08:00 ] 10.10.16.220 /index.php/Admin/Web6/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0043s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000503s ]
+NOTIC: [8] Undefined variable: type E:\htdocs\education\Application\Runtime\Cache\Admin\3f91ef57bc1194b2f31836190575f4f4.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000719s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003216s ]
+
+[ 2017-04-14T09:49:28+08:00 ] 10.10.16.220 /index.php/Admin/Web6/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003901s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: SHOW COLUMNS FROM `article6` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `article6` LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `article6` ORDER BY id desc LIMIT 0,5   [ RunTime:0.0044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined variable: type E:\htdocs\education\Application\Runtime\Cache\Admin\3f91ef57bc1194b2f31836190575f4f4.php 第 269 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+

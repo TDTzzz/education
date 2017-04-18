@@ -1,0 +1,21 @@
+[ 2017-03-27T14:35:00+08:00 ] 101.226.33.218 /education/index.php/Admin/Login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007116s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.1044s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002417s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002931s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044769s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044996s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.005696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005932s ]
+
